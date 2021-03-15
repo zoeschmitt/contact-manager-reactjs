@@ -4,7 +4,6 @@ export const Button = styled.button`
     margin-left: 10px;
     border-radius: ${({fontBig}) => (fontBig ? '16px' : '13px')};
     background: ${({isDelete}) => (isDelete ? '#f85353' : '#1a2071')};
-    /* white-space: nowrap; */
     padding: ${({fontBig}) => (fontBig ? '12px 30px' : '10px 20px')};
     color: #fff;
     font-size: ${({fontBig}) => (fontBig ? '0.9rem' : '0.8rem')};

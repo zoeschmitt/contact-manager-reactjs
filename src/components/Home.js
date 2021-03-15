@@ -10,7 +10,6 @@ import 'react-toastify/dist/ReactToastify.css';
 function Home() {
     const [contactsList, setContactlist] = useState(null);
     const [searchList, setSearchlist] = useState(null);
-    //const [selectedContact, setSelectedContact] = useState(null);
 
     useEffect(() => {
         setContactlist(contactsData);
